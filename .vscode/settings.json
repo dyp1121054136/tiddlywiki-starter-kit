@@ -1,0 +1,26 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "**/files/**/*.vue": "html",
+    "*.info": "json",
+    "*.meta": "tid",
+    "*.tid": "tid",
+    "*.files": "json",
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.experimental.configFile": "./plugins/oeyoews/tiddlywiki-tailwindcss-plus/tiddlers/tailwind.config.js",
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "files.autoSave": "off",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "tailwindCSS.emmetCompletions": true,
+  "editor.formatOnSave": true
+}
